@@ -1,16 +1,21 @@
+'use client'
 import React from 'react'
 import {Navbar, NavbarBrand, NavbarContent} from "@nextui-org/react";
 import {GiFire} from "react-icons/gi";
 import Link from "next/link";
 import {Button} from "@nextui-org/button";
 import NavLink from "@/components/navbar/NavLink";
+import {useLocale, useTranslations} from "use-intl";
+import LanguageSwitcher from "@/components/navbar/LanguageSwitcher";
 
 const pages = [
-    {id: 1, label: 'Members', href: '/members'},
-    {id: 2, label: 'Lists', href: '/lists'},
-    {id: 3, label: 'Messages', href: '/messages'}
+    {id: 1, label: 'members', href: '/members'},
+    {id: 2, label: 'lists', href: '/lists'},
+    {id: 3, label: 'messages', href: '/messages'}
 ];
 export default function TopNav() {
+    const t = useTranslations('Navbar');
+    const locale = useLocale();
     return (
         <Navbar
             maxWidth='xl'
@@ -32,12 +37,16 @@ export default function TopNav() {
                 </div>
             </NavbarBrand>
             <NavbarContent justify={'center'}>
-                {pages.map(page => (<NavLink key={page.id} href={page.href} label={page.label}/>))}
+                {pages.map(page => (
+                    <NavLink key={page.id} href={`/${locale}/${page.href}`} label={t(page.label)}/>))}
             </NavbarContent>
 
             <NavbarContent justify={'end'}>
-                <Button variant='bordered' as={Link} href='/login' className='text-white'>{'login'}</Button>
-                <Button variant='bordered' as={Link} href='/register' className='text-white'>{'register'}</Button>
+                <Button variant='bordered' as={Link} href={`/${locale}/login`}
+                        className='text-white'>{t('login')}</Button>
+                <Button variant='bordered' as={Link} href={`/${locale}/register`}
+                        className='text-white'>{t('register')}</Button>
+                <LanguageSwitcher/>
             </NavbarContent>
         </Navbar>
     )

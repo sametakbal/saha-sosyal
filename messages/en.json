@@ -1,0 +1,9 @@
+{
+  "Navbar": {
+    "login": "Login",
+    "register": "Register",
+    "members": "Members",
+    "messages": "Messages",
+    "lists": "Lists"
+  }
+}

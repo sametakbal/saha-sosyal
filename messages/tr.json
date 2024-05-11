@@ -1,0 +1,9 @@
+{
+  "Navbar": {
+    "login": "Giriş Yap",
+    "register": "Kayıt Ol",
+    "members": "Oyuncular",
+    "messages": "Mesajlar",
+    "lists": "Listeler"
+  }
+}
