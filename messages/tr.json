@@ -5,5 +5,15 @@
     "members": "Oyuncular",
     "messages": "Mesajlar",
     "lists": "Listeler"
+  },
+  "LoginPage": {
+    "welcomeMessage": "Saha Sosyal'e Hoşgeldiniz!",
+    "login": "Giriş Yap",
+    "forgotPassword": "Şifremi Unuttum",
+    "email": "Email",
+    "password": "Parola",
+    "emailRequired": "Lütfen bir email giriniz!",
+    "passwordRequired": "Lütfen parolanızı giriniz!",
+    "passwordMinChar": "Parola en az 6 karakter olmalıdır!"
   }
 }

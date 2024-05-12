@@ -5,5 +5,15 @@
     "members": "Members",
     "messages": "Messages",
     "lists": "Lists"
+  },
+  "LoginPage": {
+    "welcomeMessage": "Welcome back to Saha Sosyal",
+    "login": "Login",
+    "forgotPassword": "Forgot Password",
+    "email": "Email",
+    "password": "Password",
+    "emailRequired": "Email is a required!",
+    "passwordRequired": "Password is a required!",
+    "passwordMinChar": "Password must be at least 6 character!"
   }
 }
