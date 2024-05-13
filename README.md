@@ -1,5 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+### Sonar Status
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=sametakbal_saha-sosyal&metric=bugs)](https://sonarcloud.io/summary/new_code?id=sametakbal_saha-sosyal)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=sametakbal_saha-sosyal&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=sametakbal_saha-sosyal)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=sametakbal_saha-sosyal&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=sametakbal_saha-sosyal)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=sametakbal_saha-sosyal&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=sametakbal_saha-sosyal)
 ## Getting Started
 
 First, run the development server:
