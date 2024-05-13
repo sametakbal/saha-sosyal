@@ -5,7 +5,7 @@ import {Button, Card, CardBody, CardHeader, Input} from "@nextui-org/react";
 import Link from "next/link";
 import {useTranslations} from "use-intl";
 import {useForm} from "react-hook-form";
-import {loginSchema, LoginSchema} from "@/lib/loginSchema";
+import {loginSchema, LoginSchema} from "@/lib/schemas/loginSchema";
 import {zodResolver} from "@hookform/resolvers/zod";
 
 export default function LoginForm() {
@@ -39,7 +39,7 @@ export default function LoginForm() {
                             variant='bordered'
                             {...register('email')}
                             isInvalid={!!errors.email}
-                            errorMessage={t(errors.email?.message as string)}
+                            errorMessage={errors.email?.message && t(errors.email?.message)}
                         />
                         <Input
                             defaultValue=''
@@ -48,7 +48,7 @@ export default function LoginForm() {
                             type='password'
                             {...register('password')}
                             isInvalid={!!errors.password}
-                            errorMessage={t(errors.password?.message as string)}
+                            errorMessage={errors.password?.message && t(errors.password?.message)}
                         />
                         <Button fullWidth color='success' type='submit' disabled={isValid}
                                 className='text-white font-bold'>

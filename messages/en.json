@@ -15,5 +15,28 @@
     "emailRequired": "Email is a required!",
     "passwordRequired": "Password is a required!",
     "passwordMinChar": "Password must be at least 6 character!"
+  },
+  "RegisterPage": {
+    "welcomeMessage": "Welcome back to Saha Sosyal",
+    "name": "İsim",
+    "surname": "Soyisim",
+    "email": "Email",
+    "password": "Parola",
+    "position": "Mevki",
+    "register": "Kayıt ol",
+    "nameRequired": "Name is a required",
+    "surnameRequired": "Surname is a required",
+    "emailRequired": "Email is a required!",
+    "passwordRequired": "Password is a required!",
+    "passwordMinChar": "Password must be at least 6 character!",
+    "goalKeeper": "Goal Keeper",
+    "defence": "Defence",
+    "centreBack": "Centre Back",
+    "rightBack": "Right Back",
+    "leftBack": "Left Back",
+    "middle": "Middle",
+    "forward": "Forward",
+    "wing": "Wing",
+    "positionRequired": "At least 1 position select!"
   }
 }

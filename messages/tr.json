@@ -15,5 +15,28 @@
     "emailRequired": "Lütfen bir email giriniz!",
     "passwordRequired": "Lütfen parolanızı giriniz!",
     "passwordMinChar": "Parola en az 6 karakter olmalıdır!"
+  },
+  "RegisterPage": {
+    "welcomeMessage": "Saha Sosyal'e Hoşgeldiniz!",
+    "name": "İsim",
+    "surname":"Soyisim",
+    "email": "Email",
+    "password": "Parola",
+    "position": "Mevki",
+    "register": "Kayıt ol",
+    "nameRequired": "Lütfen bir isim giriniz",
+    "surnameRequired": "Lütfen bir soyisim giriniz",
+    "emailRequired": "Lütfen bir email giriniz!",
+    "passwordRequired": "Lütfen parolanızı giriniz!",
+    "passwordMinChar": "Parola en az 6 karakter olmalıdır!",
+    "goalKeeper": "Kaleci",
+    "defence": "Defans",
+    "centreBack": "Stoper",
+    "rightBack": "Sağ Bek",
+    "leftBack": "Sol Bek",
+    "middle": "Orta Saha",
+    "forward": "Forvet",
+    "wing": "Kanat",
+    "positionRequired": "En az bir mevki seçilmelidir!"
   }
 }
